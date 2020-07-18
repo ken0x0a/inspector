@@ -7,3 +7,12 @@ dist
 /**/build
 package/
 *.tgz
+
+# yarn
+yarn-debug.log*
+yarn-error.log*
+# yarn v2
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
